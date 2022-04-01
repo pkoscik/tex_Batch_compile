@@ -1,2 +1,5 @@
-# tex_Batch_compile
-Small collection of (awful) Python and Bash scripts used to automatically compile (la)TeX files and merge them into one PDF.
+# LaTeX batch compile and merge
+
+A collection of really bad Python and Bash scripts, used for batch compilation
+and merging of multiple LaTeX projects into one .PDF file.
+
