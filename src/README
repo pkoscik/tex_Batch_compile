@@ -1,12 +1,17 @@
 # author:  Patryk Kościk
 # contact: koscikpatryk@gmail.com
 
-Tutaj umieszczamy FOLDERY z projektami w formacie:
+Place your projects here, as in, folders in witch .tex files are located.
 
-nr_nazwa
+Project directory naming requirements:
 
-np:
+number_name
 
-"1_przycisk"
+For example:
 
-nr -> bezpośrednio wskazuje na kolejność wystąpienia dokumentu w zmergowanym pdfie.
+0_first-project/
+1_second-project/
+
+The naming scheme is important, beacuse the number chooses the order 
+of the documents in the merging process.
+
