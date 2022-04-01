@@ -1,0 +1,12 @@
+# author:  Patryk Kościk
+# contact: koscikpatryk@gmail.com
+
+Tutaj umieszczamy FOLDERY z projektami w formacie:
+
+nr_nazwa
+
+np:
+
+"1_przycisk"
+
+nr -> bezpośrednio wskazuje na kolejność wystąpienia dokumentu w zmergowanym pdfie.
