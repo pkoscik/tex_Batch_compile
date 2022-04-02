@@ -3,7 +3,7 @@
 A collection of _really bad_ Python and Bash scripts, used for batch compilation
 and merging of multiple LaTeX projects into one .PDF file.
 
-## Usage 
+## Project folder structure
 Place your project in directories in `src/` folder with the following names:
 
 `number_name`
@@ -24,6 +24,12 @@ src/
 ```
 
 The number before name indicates the place of the project in the merged PDF.
+
+## Usage (automatic)
+
+After importing projets, run `make.sh` (`make.sh -v` for verbose output).
+
+## Usage (manual)
 
 After importing projects, run `compile_all_docker.py` script.
 
