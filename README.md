@@ -66,6 +66,11 @@ $ ./compress.sh
 
 Witch will output out_compressed.pdf. That is our final file :)
 
+### Troubleshooting / known issues
+- `Command 'ls | grep *.tex' returned non-zero exit status 1.` 
+
+Most likely you have an empty project folder inside src/ directory.
+
 ### Important!
 
 Right now the codebase is probably the worst code I've ever written. It't not tested in any way, python scripts run bash commands wihout
