@@ -38,7 +38,7 @@ for folder in folders:
     pdf_filename = subprocess.check_output("ls | grep *.pdf", shell=True).decode("utf-8").strip()
 
     # move created PDF to pdf directory
-    copy_command = os.system(f"mv {pdf_filename} ../../pdf/{folder}.pdf")
+    copy_command = os.system(f"mv -f {pdf_filename} ../../pdf/{folder}.pdf")
 
     # return to scr directory and clear variables for good measure
     os.chdir("..")
