@@ -27,7 +27,7 @@ The number before name indicates the place of the project in the merged PDF.
 
 ## Usage (automatic)
 
-After importing projets, run `make.sh` (`make.sh -v` for verbose output).
+After importing projets, run `make.sh`, pass `-v` for verbose output.
 
 ## Usage (manual)
 
